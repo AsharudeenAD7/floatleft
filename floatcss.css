@@ -1,0 +1,42 @@
+*
+{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.container
+{
+    height: 40px;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    overflow:auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.child-div
+{
+   float: left;
+   border:1px solid green;
+   height: 30px;
+   width: 25px;
+   padding: 10px;  
+   margin: 5px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   /* box-sizing: border-box;  */
+   
+} 
+
+.container::-webkit-scrollbar {
+   display: none;
+}
+/* width+padding+margin=width of an element 
+height+padding+margin=height of an element
+*/
